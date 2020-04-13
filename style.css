@@ -1,0 +1,78 @@
+/* Global */
+
+$color-main: #48dbfb;
+$color-title: #F838CD;
+*, *::before, *::after {
+	box-sizing: border-box;	
+}
+$font-text: 'Noto Sans', sans-serif;
+$font-header: 'Trade Winds', cursive;
+
+/*Splash*/
+
+.splash {
+    height: 50vh;
+    max-width: 100%;
+    
+    background-image: url('https://pixabay.com/get/52e9dd424b55aa14f6d1867dda35367b1d39dbe156527548_1920.png?attachment=');
+    background-attachment: fixed;
+    background-size: cover;
+    color: #F838CD;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*body*/
+
+body {
+    margin: 20px;
+    background: #48dbfb;
+    color: #3d3d3d;
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px;       
+}
+
+.title{
+    position: relative;
+    font-size: 28px;
+    margin: 5px;
+    font-family: 'Trade Winds', cursive;
+    text-align: center;
+}
+
+.image {
+    width: 30%;
+   height: 30%;
+   position: relative;
+}
+
+.subtitle{
+    position: relative;
+    font-size: 25px;
+    margin: 5px;
+    border:20px;
+    font-family: 'Trade Winds', cursive;
+    text-align: center;
+}
+
+.text{
+    position:relative;
+    font-size: 18px;
+    margin: 8px;
+    border: 10px;
+    font-family: 'Trade Winds', cursive;
+    text-align: center;
+}
+
+.footer {
+    background: #2980b9;
+    color: #fff;
+    text-align: center;
+}
